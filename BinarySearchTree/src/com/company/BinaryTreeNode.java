@@ -1,6 +1,6 @@
 package com.company;
 
-public class BinaryTreeNode<T extends Comparable<? super T>> {
+public class BinaryTreeNode<T extends Comparable<T>> implements Comparable<BinaryTreeNode<T>> {
     private T data;
     private BinaryTreeNode<T> left;
     private BinaryTreeNode<T> right;
@@ -33,6 +33,11 @@ public class BinaryTreeNode<T extends Comparable<? super T>> {
 
     public void setRight(BinaryTreeNode<T> right) {
         this.right = right;
+    }
+
+    @Override
+    public int compareTo(BinaryTreeNode<T> o) {
+        return this.getData().compareTo(o.getData());
     }
 }
 
