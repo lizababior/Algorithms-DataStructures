@@ -4,18 +4,18 @@ This is a collection of algorithms and data structures I've implemented in my ac
 ## Table of Contents
 
 - [Linked List](https://github.com/Babior/Algorithms-DataStructures/blob/main/LinkedList/src/com/company/MyLinkedList.java)
-- [Heap]()
+- [Heap]
   - [Min Heap](https://github.com/Babior/Algorithms-DataStructures/blob/main/MinHeap/src/minheap/MinHeap.java)
   - [Quick Sort](https://github.com/Babior/Algorithms-DataStructures/blob/main/QuickSort/src/QuickSort.java)
-- [Tree](https://pages.github.com/)
-  - [Binary Search Tree](https://pages.github.com/)
-  - [AVL Tree](https://pages.github.com/)
-- [Hash Set](https://pages.github.com/)
-  - [Chaining Hash Set](https://pages.github.com/)
-  - [Ordered Double Hash Set](https://pages.github.com/)
-- [Pattern matching](https://pages.github.com/)
-  - [Boyer Moore](https://pages.github.com/)
-  - [Rabin Karp](https://pages.github.com/)
-- [Graph](https://pages.github.com/)
-  - [Depth-first search (DFS)](https://pages.github.com/)
-  - [Dijkstra](https://pages.github.com/)
+- [Tree]
+  - [Binary Search Tree](https://github.com/Babior/Algorithms-DataStructures/blob/main/BinarySearchTree/src/MyBinarySearchTree.java)
+  - [AVL Tree](https://github.com/Babior/Algorithms-DataStructures/blob/main/AVLTree/src/AVLTree.java)
+- [Hash Set]
+  - [Chaining Hash Set](https://github.com/Babior/Algorithms-DataStructures/blob/main/HashSets/src/ChainingHashSet.java)
+  - [Ordered Double Hash Set](https://github.com/Babior/Algorithms-DataStructures/blob/main/HashSets/src/OrderedDoubleHashSet.java)
+- [Pattern matching]
+  - [Boyer Moore](https://github.com/Babior/Algorithms-DataStructures/blob/main/PatternMatchingAlgorithms/src/BoyerMoore.java)
+  - [Rabin Karp](https://github.com/Babior/Algorithms-DataStructures/blob/main/PatternMatchingAlgorithms/src/RabinKarp.java)
+- [Graph]
+  - [Depth-first search (DFS)](https://github.com/Babior/Algorithms-DataStructures/blob/main/DFS/src/DFS.java)
+  - [Dijkstra](https://github.com/Babior/Algorithms-DataStructures/blob/main/Dijkstra/src/dijkstra/Roadmap.java)
