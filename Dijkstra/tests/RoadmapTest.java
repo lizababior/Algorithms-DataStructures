@@ -1,5 +1,5 @@
-import com.company.Roadmap;
-import com.company.Station;
+import dijkstra.Roadmap;
+import dijkstra.Station;
 import org.junit.Test;
 
 public class RoadmapTest {

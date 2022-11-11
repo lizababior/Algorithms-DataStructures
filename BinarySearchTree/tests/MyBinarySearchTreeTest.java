@@ -1,8 +1,7 @@
-import com.company.MyBinarySearchTree;
 import org.junit.Assert;
-import org.junit.jupiter.api.*;
+import org.junit.Test;
 
-class MyBinarySearchTreeTest {
+public class MyBinarySearchTreeTest {
     MyBinarySearchTree<Integer> intTree = new MyBinarySearchTree<>();
 
     private Object getNewRoot(Object[] arr, int key) {
@@ -25,7 +24,7 @@ class MyBinarySearchTreeTest {
     }
 
     @Test
-    void insert() {
+    public void insert() {
         fillInt();
         Exception exception = Assert.assertThrows(IllegalArgumentException.class, () -> {
             intTree.insert(null);
@@ -43,7 +42,7 @@ class MyBinarySearchTreeTest {
     }
 
     @Test
-    void find() {
+    public void find() {
         fillInt();
         int n = 10;
         Assert.assertNull(intTree.find(Integer.MIN_VALUE));
@@ -58,7 +57,7 @@ class MyBinarySearchTreeTest {
     }
 
     @Test
-    void remove() {
+    public void remove() {
         insert();
         int size = intTree.size();
         Object newRoot = getNewRoot(intTree.toArrayInOrder(), 10);
@@ -76,7 +75,7 @@ class MyBinarySearchTreeTest {
     }
 
     @Test
-    void size() {
+    public void size() {
         Assert.assertEquals(0, intTree.size());
         insert();
         Assert.assertEquals(7, intTree.size());
@@ -85,25 +84,25 @@ class MyBinarySearchTreeTest {
     }
 
     @Test
-    void toArrayPostOrder() {
+    public void toArrayPostOrder() {
         fillInt();
         Assert.assertArrayEquals(new Object[]{0, 5, 1, 11, 20, 15, 10}, intTree.toArrayPostOrder());
     }
 
     @Test
-    void toArrayInOrder() {
+    public void toArrayInOrder() {
         fillInt();
         Assert.assertArrayEquals(new Object[]{0, 1, 5, 10, 11, 15, 20}, intTree.toArrayInOrder());
     }
 
     @Test
-    void toArrayPreOrder() {
+    public void toArrayPreOrder() {
         fillInt();
         Assert.assertArrayEquals(new Object[]{10, 1, 0, 5, 15, 11, 20}, intTree.toArrayPreOrder());
     }
 
     @Test
-    void getParent() {
+    public void getParent() {
         fillInt();
         Assert.assertEquals((Integer) 15, intTree.getParent(11));
         Assert.assertEquals((Integer) 1, intTree.getParent(5));
@@ -119,7 +118,7 @@ class MyBinarySearchTreeTest {
     }
 
     @Test
-    void isRoot() {
+    public void isRoot() {
         intTree.insert(10);
         Assert.assertTrue(intTree.isRoot(10));
 
@@ -130,7 +129,7 @@ class MyBinarySearchTreeTest {
     }
 
     @Test
-    void isInternal() {
+    public void isInternal() {
         fillInt();
         Assert.assertTrue(intTree.isInternal(1));
         Assert.assertTrue(intTree.isInternal(15));
@@ -145,7 +144,7 @@ class MyBinarySearchTreeTest {
     }
 
     @Test
-    void isExternal() {
+    public void isExternal() {
         fillInt();
         Assert.assertTrue(intTree.isExternal(5));
         Assert.assertTrue(intTree.isExternal(20));

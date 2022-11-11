@@ -1,11 +1,9 @@
-import com.company.MinHeap;
-import com.company.QuickSort;
+import minheap.MinHeap;
 import org.junit.Test;
 import org.junit.Assert;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.NoSuchElementException;
 
 public class HeapTest {
     MinHeap intHeap = new MinHeap(7);

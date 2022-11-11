@@ -1,5 +1,3 @@
-import com.company.RabinKarp;
-import com.company.Result;
 import org.junit.Assert;
 import org.junit.Test;
 

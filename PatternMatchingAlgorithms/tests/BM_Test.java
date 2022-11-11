@@ -1,5 +1,3 @@
-import com.company.BoyerMoore;
-import com.company.Result;
 import org.junit.Assert;
 import org.junit.Test;
 

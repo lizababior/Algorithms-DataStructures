@@ -1,4 +1,3 @@
-import com.company.ChainingHashSet;
 import org.junit.Assert;
 import org.junit.Test;
 
