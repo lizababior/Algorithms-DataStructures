@@ -1,5 +1,6 @@
 import dijkstra.Roadmap;
 import dijkstra.Station;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class RoadmapTest {

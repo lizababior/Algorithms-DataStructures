@@ -1,7 +1,5 @@
 package minheap;
 
-import dijkstra.MyMinHeap;
-
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 
