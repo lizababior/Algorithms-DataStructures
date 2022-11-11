@@ -4,9 +4,9 @@ This is a collection of algorithms and data structures I've implemented in my ac
 ## Table of Contents
 
 - [Linked List](https://github.com/Babior/Algorithms-DataStructures/blob/main/LinkedList/src/com/company/MyLinkedList.java)
-- [Heap](https://pages.github.com/)
-  - [Min Heap](https://pages.github.com/)
-  - [Quick Sort](https://pages.github.com/)
+- [Heap]()
+  - [Min Heap](https://github.com/Babior/Algorithms-DataStructures/blob/main/MinHeap/src/minheap/MinHeap.java)
+  - [Quick Sort]([https://pages.github.com/](https://github.com/Babior/Algorithms-DataStructures/blob/main/QuickSort/src/QuickSort.java))
 - [Tree](https://pages.github.com/)
   - [Binary Search Tree](https://pages.github.com/)
   - [AVL Tree](https://pages.github.com/)
