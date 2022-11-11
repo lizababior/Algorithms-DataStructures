@@ -6,7 +6,7 @@ This is a collection of algorithms and data structures I've implemented in my ac
 - [Linked List](https://github.com/Babior/Algorithms-DataStructures/blob/main/LinkedList/src/com/company/MyLinkedList.java)
 - [Heap]()
   - [Min Heap](https://github.com/Babior/Algorithms-DataStructures/blob/main/MinHeap/src/minheap/MinHeap.java)
-  - [Quick Sort](https://github.com/Babior/Algorithms-DataStructures/blob/main/QuickSort/src/QuickSort.java))
+  - [Quick Sort](https://github.com/Babior/Algorithms-DataStructures/blob/main/QuickSort/src/QuickSort.java)
 - [Tree](https://pages.github.com/)
   - [Binary Search Tree](https://pages.github.com/)
   - [AVL Tree](https://pages.github.com/)
